@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Courier New', Courier, monospace; /* Gives a more serious tone */
+  }
+  
+  input::placeholder {
+    font-style: italic;
+    opacity: 0.7; /* For a slight worn-out effect */
+  }
+  
+  /* Add a border effect */
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+  
+  button {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
